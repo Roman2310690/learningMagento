@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @var \Redepy\HelloWorld\Block\Display $block
+ */
+
+?>
+
+<?php echo $block->sayHello(); ?>
+
+<?php foreach ($block->getCategoryCollection() as $category): ?>
+    <?php echo $category->getName(); ?>
+    <br/>
+    <?php foreach ($block->getProductCollectionByCategories($category->getId()) as $product): ?>
+        <?php echo $product->getName() ?>
+        <br/>
+    <?php endforeach; ?>
+<?php endforeach; ?>
+
+
+
+
+
+
+
