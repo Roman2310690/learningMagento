@@ -79,8 +79,8 @@ setup/
 var/
 vendor/
 README.md
-app/
-!app/code/
+/app
+!app/codes
 functions.php
 bootstrap.php
 autoload.php
