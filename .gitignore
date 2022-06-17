@@ -80,7 +80,6 @@ var/
 vendor/
 README.md
 /app
-!app/codes
 functions.php
 bootstrap.php
 autoload.php
